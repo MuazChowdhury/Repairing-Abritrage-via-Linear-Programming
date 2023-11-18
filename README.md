@@ -1,2 +1,2 @@
 # Repairing Abritrage via Linear Programming
- Review and mplementation of the paper 'Detecting and repairing arbitrage in traded option prices'. 
+ This project is based on the paper 'Detecting and repairing arbitrage in traded option prices', showing how to construct an arbitrage-free call price surface by first characterising static arbitrage as a set of linear inequalities that must be satisfied, and then using linear programming/optimisation, with these linear inequalities as constraints, to "minimally" perturb the option prices.
