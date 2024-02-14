@@ -40,9 +40,6 @@ def build_Ab_3(strikes_norm, m, n, N):
 
     return A3, b3
 
-def build_A_4(): 
-    pass
-
 def build_Ab_5(strikes_norm, n, N):
     dictioI5= cs.create_index_dictionaryI(strikes_norm)
     s=sum(len(dictioI5[key]) for key in dictioI5.keys()) 
